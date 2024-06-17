@@ -120,7 +120,6 @@ private:
   ros::NodeHandle comms_handle;
   ros::Subscriber map_sub_;
   ros::Publisher map_pub_;
-
 };
 }
 
