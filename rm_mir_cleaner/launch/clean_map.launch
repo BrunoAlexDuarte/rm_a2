@@ -6,8 +6,8 @@
 		<arg name="map_file" value="$(find rm_mir_cleaner)/maps/newmap.yaml"/>
 	</include>
 	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find rm_mir_cleaner)/launch/rviz/a2_default.rviz"/>
-	<!-- include file="$(find path_coverage)/launch/path_coverage.launch"> </include -->
-	<!-- node pkg="rm_mir_cleaner" type="rm_cleaner" name="rm_cleaner"/ -->
+	<include file="$(find path_coverage)/launch/path_coverage.launch"> </include>
+	<node pkg="rm_mir_cleaner" type="rm_cleaner" name="rm_cleaner"/>
 </launch>
 
 

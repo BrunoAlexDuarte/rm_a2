@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /LaserScan1
+        - /Grid1
         - /Marker1
         - /Axes1
       Splitter Ratio: 0.5
@@ -226,7 +226,8 @@ Visualization Manager:
       Marker Topic: /path_coverage_marker
       Name: Marker
       Namespaces:
-        {}
+        path: true
+        trapezoid: true
       Queue Size: 100
       Value: true
     - Alpha: 1
@@ -266,7 +267,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 19.23887825012207
+      Distance: 37.55705642700195
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
